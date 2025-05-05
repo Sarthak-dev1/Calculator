@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(47deg, #000000, #365f84)
+}
+
+.Calculator{
+    border: #000428;
+    padding: 20px;
+    border-radius: 45px;
+    background-color: transparent;
+    box-shadow: 0px 4px 20px rgba(10, 9, 10, 0.4);
+}
+
+input{
+    width: 350px;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    border: none;
+    border-radius: 100px;
+    background: transparent;
+    outline: none;
+    box-shadow: 0px 3px 15px rgbs(85, 85, 85, 0.2);
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: #c4f1f1;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 26px;
+    border: none;
+    border-radius: 100px;
+    background: transparent;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    color: #c4f1f1;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 3px 15px rgba(85, 85, 85, 0.2);
+}
+
+.eqlbtn{
+    background-color: rgb(73, 168, 168);
+}
+
+.operator{
+    color: rgb(10, 248, 129);
+}
+
+#del{
+    color: rgba(232, 29, 29, 0.733);
+}
+
+#Clear{
+    color: rgb(244, 225, 14);
+}
